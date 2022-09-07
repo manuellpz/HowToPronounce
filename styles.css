@@ -1,0 +1,31 @@
+:root {
+	--text-color: #fff;
+}
+
+body {
+	background: #333;
+	font-family: 'Jetbrains Mono';
+}
+
+.pronunciation {
+	width: 50vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+	margin: auto;
+}
+
+h1,h2 {
+	color: var(--text-color);
+}
+
+.pronunciation__search {
+	width: 30vw;
+	text-align: center;
+	padding: 0.5em 1em;
+	border: none;
+	border-radius: 0.5em;
+	font-size: 20px;
+	font-weight: bold;
+}
